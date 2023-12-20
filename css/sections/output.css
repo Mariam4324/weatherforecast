@@ -1,0 +1,80 @@
+.output {
+  display: none;
+  margin: 140px auto 140px;
+}
+
+.icon {
+  margin-bottom: 7px;
+  max-width: 110px;
+  text-align: center;
+  margin: 0 auto 12px;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* .clear {
+
+}
+
+.rain {
+}
+
+.mist {
+}
+
+.drizzle {
+} */
+
+.temperature {
+  margin-top: 7px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.state {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.descr {
+  margin-top: 5px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.change_city {
+  width: 110px;
+  height: 28px;
+  display: block;
+  margin: 36px auto 0;
+  border: none;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Mulish", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+  text-decoration-line: underline;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.6s all;
+}
+
+.change_city:hover {
+  background: #ffffff;
+  color: #4c01e0;
+}

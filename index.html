@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./icon/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script defer src="./js/script.js"></script>
+  </head>
+
+  <body>
+    <main>
+      <section class="main">
+        <div class="container">
+          <div class="title">Weather</div>
+          <!-- ПОИСК ======= -->
+          <form class="form">
+            <input
+              class="input"
+              type="text"
+              placeholder="Type your city here"
+            />
+            <button class="btn">Find</button>
+          </form>
+          <!-- ПОИСК ======= -->
+
+          <!-- ВЫВОД ======= -->
+          <section class="output">
+            <img alt="icon" src="" class="icon"></img>
+            <span class="temperature"></span>
+            <p class="state"></p>
+            <p class="descr"></p>
+            <button class="change_city">Change city</button>
+          </section>
+          <!-- ВЫВОД ======= -->
+
+          <div class="author">With ❤️ by Alex</div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
